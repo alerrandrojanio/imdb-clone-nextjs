@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className="min-h-screen text-gray-700 select-none dark:bg-gray-700 dark:text-gray-200 transition-colors duration-300 ">
         <Providers>{children}</Providers>
       </body>
     </html>
