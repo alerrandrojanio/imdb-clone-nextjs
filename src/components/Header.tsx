@@ -9,7 +9,7 @@ import { DarkModeSwitch } from "./DarkModeSwitch"
 export function Header() {
   return (
     <div className="flex items-center justify-between max-w-6xl py-6 mx-2 sm:mx-auto">
-      <div className="flex">
+      <div className="flex ">
         <MenuItem
           title="HOME"
           address="/"
